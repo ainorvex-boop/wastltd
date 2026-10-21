@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WASTLTD | Specialist construction, London</title>
+<meta name="description" content="WASTLTD is a London construction company delivering specialist building work with care and precision.">
+<link rel="canonical" href="https://wastltd.co.uk/">
+<meta property="og:title" content="WASTLTD | Specialist construction, London">
+<meta property="og:description" content="Specialist construction work in London, built to measure.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=70">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,300..800&family=Cormorant+Garamond:wght@500;600;700&display=swap">
+<style>
+:root{--bg:#F3F4F2;--bg2:#E7EAE8;--ink:#1B2328;--mute:#56636A;--line:#C3CACC;--copper:#B5652C;--copper-d:#8F4C1E;--dark:#161D21;--dark2:#1F292E;--on-dark:#F3F4F2;--on-dark-mute:#A9B5B9;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12181B;--bg2:#1A2226;--ink:#E8ECEA;--mute:#9AA6AB;--line:#33414A;--copper:#D58444;--copper-d:#E39A5E;--dark:#0D1214;--dark2:#161D21}}
+:root[data-theme="dark"]{--bg:#12181B;--bg2:#1A2226;--ink:#E8ECEA;--mute:#9AA6AB;--line:#33414A;--copper:#D58444;--copper-d:#E39A5E;--dark:#0D1214;--dark2:#161D21}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px));height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Archivo",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-size:17px;line-height:1.65;min-height:100%;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--dark);z-index:60}
+a{color:inherit}
+img{display:block;max-width:100%}
+:focus-visible{outline:3px solid var(--copper);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.serif{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif}
+
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--dark);color:var(--on-dark);border-bottom:1px solid #2A363C}
+.bar{display:flex;align-items:center;justify-content:space-between;height:76px}
+.logo{font-weight:800;font-stretch:125%;letter-spacing:.06em;text-decoration:none;font-size:21px;display:flex;align-items:center;gap:12px}
+.logo i{width:10px;height:26px;background:var(--copper);display:block}
+nav ul{display:flex;gap:36px;list-style:none;margin:0;padding:0;align-items:center}
+nav a{text-decoration:none;font-size:15px;font-weight:500;padding:6px 0;border-bottom:2px solid transparent;transition:border-color .25s}
+nav a:hover{border-color:var(--copper)}
+nav a.cta{background:var(--copper);color:#fff;padding:11px 20px;border:0;transition:background .25s}
+nav a.cta:hover{background:var(--copper-d)}
+.menu{display:none;background:none;border:1px solid #4A585E;color:var(--on-dark);padding:10px 16px;font:inherit;font-size:15px;cursor:pointer}
+
+/* buttons */
+.btn{display:inline-block;background:var(--copper);color:#fff;padding:16px 30px;text-decoration:none;font:inherit;font-weight:600;border:0;cursor:pointer;transition:background .25s}
+.btn:hover{background:var(--copper-d)}
+.btn.ghost{background:none;color:inherit;border:1px solid currentColor;margin-left:12px}
+.btn.ghost:hover{background:var(--on-dark);color:var(--dark)}
+
+/* image slots: photo sits over a drawn fallback, removed if the file is missing */
+.slot{position:relative;overflow:hidden;background:var(--dark2) repeating-linear-gradient(135deg,transparent 0 14px,rgba(255,255,255,.05) 14px 15px)}
+.slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.6,.2,1)}
+
+/* hero */
+.hero{position:relative;color:var(--on-dark);background:var(--dark);min-height:min(88vh,780px);display:flex;align-items:flex-end}
+.hero .slot{position:absolute;inset:0}
+.hero .slot::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,18,20,.88) 0%,rgba(13,18,20,.55) 55%,rgba(13,18,20,.25) 100%),linear-gradient(0deg,rgba(13,18,20,.7),transparent 45%)}
+.hero .wrap{position:relative;z-index:1;padding-top:120px;padding-bottom:88px;width:100%}
+.hero h1{font-size:clamp(52px,8.5vw,120px);line-height:.95;font-weight:600;letter-spacing:-.01em;margin:0 0 28px;max-width:10ch}
+.hero p{max-width:50ch;color:#D3DADC;font-size:19px;margin:0 0 36px}
+.hero-meta{position:relative;z-index:1;border-top:1px solid rgba(255,255,255,.18);background:rgba(13,18,20,.55)}
+.hero-meta .wrap{padding-top:18px;padding-bottom:18px;display:flex;flex-wrap:wrap;gap:8px 40px;font-size:14px;color:var(--on-dark-mute)}
+.hero-meta b{color:var(--on-dark);font-weight:600}
+.hero-outer{display:flex;flex-direction:column;background:var(--dark)}
+
+/* sections */
+section{padding:112px 0}
+h2{font-size:clamp(38px,5vw,62px);line-height:1.02;font-weight:600;letter-spacing:-.01em;margin:0 0 20px;max-width:17ch}
+.lead{color:var(--mute);max-width:58ch;margin:0 0 56px}
+.alt{background:var(--bg2)}
+.dark{background:var(--dark);color:var(--on-dark)}
+.dark .lead{color:var(--on-dark-mute)}
+
+/* services */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.card{background:var(--bg);border:1px solid var(--line);border-top:3px solid var(--copper);display:flex;flex-direction:column}
+.card .slot{aspect-ratio:4/3}
+.card div.t{padding:26px 26px 30px}
+.card h3{margin:0 0 10px;font-size:32px;line-height:1.1;font-weight:600}
+.card p{margin:0;color:var(--mute);font-size:16px}
+.card:hover .slot img,.fig:hover .slot img{transform:scale(1.05)}
+
+/* strengths */
+.why{display:grid;grid-template-columns:1fr 1.2fr;gap:72px;align-items:start}
+.why ul{list-style:none;margin:0;padding:0;border-top:1px solid rgba(255,255,255,.22)}
+.why li{padding:26px 0;border-bottom:1px solid rgba(255,255,255,.14)}
+.why h3{margin:0 0 6px;font-size:30px;font-weight:600;line-height:1.1}
+.why p{margin:0;color:var(--on-dark-mute);font-size:16px}
+
+/* projects */
+.proj{display:grid;grid-template-columns:1.4fr 1fr;grid-template-rows:auto auto;gap:20px}
+.fig{margin:0;position:relative}
+.fig .slot{height:100%;min-height:280px}
+.fig:first-child{grid-row:span 2}
+.fig:first-child .slot{min-height:580px}
+.fig figcaption{position:absolute;left:0;bottom:0;right:0;padding:44px 20px 18px;color:#fff;font-size:15px;font-weight:500;background:linear-gradient(0deg,rgba(13,18,20,.8),transparent);pointer-events:none}
+.note{margin-top:28px;color:var(--mute);font-size:15px;max-width:70ch}
+
+/* process */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);counter-reset:s;border-top:1px solid var(--ink)}
+.steps li{counter-increment:s;padding:30px 28px 0 0}
+.steps li::before{content:counter(s);font-family:"Cormorant Garamond",Georgia,serif;font-size:44px;line-height:1;color:var(--copper);font-weight:600;display:block;margin-bottom:12px}
+.steps h3{margin:0 0 8px;font-size:20px;font-weight:700}
+.steps p{margin:0;color:var(--mute);font-size:16px}
+
+/* about */
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:72px}
+dl{margin:0}dt{font-size:14px;color:var(--mute);margin-top:22px;padding-top:22px;border-top:1px solid var(--line)}dt:first-child{margin-top:0;padding-top:0;border:0}dd{margin:2px 0 0;font-weight:600}
+
+/* contact */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:72px}
+form{display:grid;gap:20px;max-width:560px}
+label{display:grid;gap:6px;font-size:15px;font-weight:500}
+input,textarea{font:inherit;padding:14px;background:rgba(255,255,255,.04);color:inherit;border:1px solid #5F6D73;border-radius:0}
+input[aria-invalid=true],textarea[aria-invalid=true]{border-color:#FF8A7A}
+.err{color:#FF8A7A;font-size:14px;min-height:1em;font-weight:400}
+.ok{border-left:4px solid var(--copper);padding:12px 16px;display:none}
+.direct{margin-top:36px;font-size:16px}
+.direct a{color:var(--on-dark);text-underline-offset:4px}
+
+footer{padding:44px 0;font-size:14px;color:var(--on-dark-mute);background:var(--dark);border-top:1px solid #2A363C}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px 40px;justify-content:space-between}
+
+/* single, restrained entrance: sections fade in once */
+.rv{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.rv{opacity:1;transform:none;transition:none}.slot img{transition:none}}
+
+@media(max-width:900px){
+.menu{display:block}
+nav{display:none;position:absolute;left:0;right:0;top:76px;background:var(--dark);border-bottom:1px solid #2A363C;padding:8px 28px 22px}
+nav.open{display:block}nav ul{flex-direction:column;gap:0;align-items:stretch}nav a{display:block;padding:14px 0;font-size:18px;border:0;border-bottom:1px solid #2A363C}
+nav a.cta{margin-top:16px;text-align:center;border:0}
+.cards,.why,.facts,.contact,.steps{grid-template-columns:1fr;gap:32px}
+.proj{grid-template-columns:1fr}.fig:first-child{grid-row:auto}.fig:first-child .slot,.fig .slot{min-height:0;aspect-ratio:4/3}
+.steps li{padding-right:0}
+.hero{min-height:auto}.hero .wrap{padding-top:96px;padding-bottom:56px}
+section{padding:76px 0}
+.btn.ghost{margin:14px 0 0}.btn{text-align:center}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap bar">
+  <a class="logo" href="#top" aria-label="WASTLTD home"><i></i>WASTLTD</a>
+  <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" aria-label="Main"><ul>
+   <li><a href="#services">Services</a></li><li><a href="#projects">Projects</a></li><li><a href="#process">Process</a></li><li><a href="#about">About</a></li><li><a href="#contact" class="cta">Discuss your project</a></li>
+  </ul></nav>
+ </div>
+</header>
+<main id="top">
+<div class="hero-outer">
+ <div class="hero">
+  <div class="slot"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=70" alt="Two builders working on a construction site" width="1920" height="1080" fetchpriority="high" onerror="this.remove()"></div>
+  <div class="wrap">
+   <h1 class="serif">Built to measure.</h1>
+   <p>WASTLTD is a London construction company carrying out specialist building work, with every dimension checked before it is built.</p>
+   <a class="btn" href="#contact">Discuss your project</a><a class="btn ghost" href="#projects">See our work</a>
+  </div>
+ </div>
+ <div class="hero-meta"><div class="wrap">
+  <span><b>North London</b> based</span><span><b>Company no. 17523054</b></span><span>Registered in England and Wales</span>
+ </div></div>
+</div>
+
+<section id="services"><div class="wrap">
+ <h2 class="serif rv">What we build</h2>
+ <p class="lead rv">WASTLTD is registered for specialised construction activities. Our service list is being finalised; the headings below show the work we are set up to take on.</p>
+ <div class="cards" id="svc"></div>
+</div></section>
+
+<section class="dark" id="why"><div class="wrap why">
+ <div class="rv">
+  <h2 class="serif">A simple rule: measure twice, build once.</h2>
+  <p class="lead" style="margin:0">How we approach every job, from first visit to handover.</p>
+ </div>
+ <ul class="rv">
+  <li><h3 class="serif">Dimensions checked first</h3><p>Every measurement is confirmed on site before work starts, so what is drawn is what is built.</p></li>
+  <li><h3 class="serif">One point of contact</h3><p>You deal with the same person from the first visit to handover.</p></li>
+  <li><h3 class="serif">A registered UK company</h3><p>WASTLTD is incorporated in England and Wales. Company details are listed below.</p></li>
+ </ul>
+</div></section>
+
+<section id="projects" class="alt"><div class="wrap">
+ <h2 class="serif rv">Projects</h2>
+ <p class="lead rv">The images below illustrate the kind of work we take on. They are reference photographs, not completed WASTLTD projects, and will be replaced with our own photography. Follow current jobs on <a href="https://www.instagram.com/wast.ltd" rel="noopener" target="_blank">Instagram @wast.ltd</a>.</p>
+ <div class="proj rv" id="proj"></div>
+ <p class="note">Reference imagery only. No project shown here should be read as completed WASTLTD work.</p>
+</div></section>
+
+<section id="process"><div class="wrap">
+ <h2 class="serif rv">How we work with you</h2>
+ <p class="lead rv">Four stages, in this order.</p>
+ <ol class="steps rv">
+  <li><h3>Send your details</h3><p>Tell us the address and what you would like done.</p></li>
+  <li><h3>Site visit</h3><p>We visit, look at the building and take measurements.</p></li>
+  <li><h3>Plan and quote</h3><p>You receive a written plan and price for the work.</p></li>
+  <li><h3>Build and handover</h3><p>We carry out the work and walk you through the finished result.</p></li>
+ </ol>
+</div></section>
+
+<section id="about" class="alt"><div class="wrap facts">
+ <div class="rv">
+  <h2 class="serif">A new London company</h2>
+  <p class="lead" style="margin:0">WASTLTD is a private limited company based in North London, taking on specialist construction work for homeowners and businesses.</p>
+ </div>
+ <dl class="rv">
+  <dt>Registered company</dt><dd>WASTLTD, company number 17523054</dd>
+  <dt>Registered office</dt><dd>First Floor Flat, 17 Keston Road, London N17 6PJ</dd>
+  <dt>Incorporated</dt><dd>15 October 2026</dd>
+  <dt>Nature of business</dt><dd>Other specialised construction activities (SIC 43999)</dd>
+ </dl>
+</div></section>
+
+<section id="contact" class="dark"><div class="wrap contact">
+ <div class="rv">
+  <h2 class="serif">Tell us about your project</h2>
+  <p class="lead" style="margin:0">Send the details and we will reply by email. Include the address and what you would like done.</p>
+  <p class="direct">Or email <a href="mailto:info@wastltd.co.uk">info@wastltd.co.uk</a><br>Instagram <a href="https://www.instagram.com/wast.ltd" target="_blank" rel="noopener">@wast.ltd</a></p>
+ </div>
+ <form id="f" novalidate>
+  <label>Your name<input name="name" autocomplete="name" required><span class="err" aria-live="polite"></span></label>
+  <label>Email<input name="email" type="email" autocomplete="email" required><span class="err" aria-live="polite"></span></label>
+  <label>Phone (optional)<input name="phone" type="tel" autocomplete="tel"></label>
+  <label>Project details<textarea name="msg" rows="5" required></textarea><span class="err" aria-live="polite"></span></label>
+  <button class="btn" type="submit">Send enquiry</button>
+  <p class="ok" id="ok" role="status">Your email app has opened with the enquiry ready to send. Press send there to complete it.</p>
+ </form>
+</div></section>
+</main>
+<footer><div class="wrap">
+ <span>© 2026 WASTLTD. Registered in England and Wales, company number 17523054.</span>
+ <span>17 Keston Road, London N17 6PJ</span>
+ <a href="https://www.instagram.com/wast.ltd" target="_blank" rel="noopener">Instagram</a>
+ <span>Photography: <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></span>
+</div></footer>
+<script>
+const CONTACT_EMAIL="info@wastltd.co.uk";
+/* Photos are free-licence Unsplash images. Replace each URL with your own photo (e.g. images/hero.jpg) when you have them. */
+const SERVICES=[
+ ["Specialist construction","Building work that falls outside standard trades, planned and delivered to the drawings.","https://images.unsplash.com/photo-1701850009190-2859ba2aeea6?auto=format&fit=crop&w=1000&q=70","Builder applying mortar to a brick wall"],
+ ["Refurbishment and alterations","Changes to existing buildings, with the structure and finishes in mind.","https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1000&q=70","Builder in a hard hat using a power tool"],
+ ["Project management","One point of contact from first visit to handover.","https://images.unsplash.com/photo-1489514354504-1653aa90e34e?auto=format&fit=crop&w=1000&q=70","Person walking across a construction site"]
+];
+const PROJECTS=[
+ ["https://images.unsplash.com/photo-1525193792470-66955780542b?auto=format&fit=crop&w=1400&q=70","Reference: brickwork","Close view of a brick wall"],
+ ["https://images.unsplash.com/photo-1533378890784-b2a5b0a59d40?auto=format&fit=crop&w=1000&q=70","Reference: groundwork and reinforcement","Workers placing steel rebar on a site"],
+ ["https://images.unsplash.com/photo-1615038304140-25c104f1e5b5?auto=format&fit=crop&w=1000&q=70","Reference: masonry detail","Brown and white brick wall"]
+];
+const slot=(src,alt)=>`<div class="slot"><img src="${src}" alt="${alt}" loading="lazy" width="1200" height="900" onerror="this.remove()"></div>`;
+document.getElementById("svc").innerHTML=SERVICES.map(s=>`<article class="card rv">${slot(s[2],s[3])}<div class="t"><h3 class="serif">${s[0]}</h3><p>${s[1]}</p></div></article>`).join("");
+document.getElementById("proj").innerHTML=PROJECTS.map(p=>`<figure class="fig">${slot(p[0],p[2])}<figcaption>${p[1]}</figcaption></figure>`).join("");
+
+const btn=document.querySelector(".menu"),nav=document.getElementById("nav");
+btn.addEventListener("click",()=>{const o=nav.classList.toggle("open");btn.setAttribute("aria-expanded",o)});
+nav.addEventListener("click",e=>{if(e.target.tagName==="A"){nav.classList.remove("open");btn.setAttribute("aria-expanded","false")}});
+
+const rv=document.querySelectorAll(".rv");
+if("IntersectionObserver" in window&&!matchMedia("(prefers-reduced-motion:reduce)").matches){
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});
+ rv.forEach(el=>io.observe(el));
+}else rv.forEach(el=>el.classList.add("in"));
+
+const f=document.getElementById("f");
+f.addEventListener("submit",e=>{
+ e.preventDefault();let bad=false;
+ const rules={name:v=>v.trim()?"":"Enter your name.",email:v=>/^\S+@\S+\.\S+$/.test(v)?"":"Enter a valid email address.",msg:v=>v.trim().length>9?"":"Describe the work in at least 10 characters."};
+ for(const k in rules){const el=f.elements[k],m=rules[k](el.value),s=el.parentElement.querySelector(".err");s.textContent=m;el.setAttribute("aria-invalid",!!m);if(m)bad=true}
+ if(bad){f.querySelector("[aria-invalid=true]").focus();return}
+ const d=new FormData(f);
+ const body=`Name: ${d.get("name")}\nEmail: ${d.get("email")}\nPhone: ${d.get("phone")||"-"}\n\n${d.get("msg")}`;
+ location.href=`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("Website enquiry from "+d.get("name"))}&body=${encodeURIComponent(body)}`;
+ document.getElementById("ok").style.display="block";
+});
+</script>
+</body>
+</html>
